@@ -1,7 +1,27 @@
+import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
 
 const Intro = () => {
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      {
+        y: 50,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        stagger: 0.2,
+        duration: 0.8,
+        ease: "power2.inOut",
+      },
+    );
+  });
+
   return (
     <section id="intro" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
@@ -9,7 +29,7 @@ const Intro = () => {
       </div>
       <div className="hero-layout ">
         {/* LEFT: Hero content*/}
-        <header className="intro-header flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+        <header className="intro-header flex flex-col justify-center md:w-full w-screen md:pl-20 pr-10 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1> Hello, I'm</h1>
@@ -25,7 +45,7 @@ const Intro = () => {
                         <img
                           src={word.imgPath}
                           alt={word.text}
-                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-blue-50"
+                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-purple-300"
                         />
                         <span>{word.text} Designer</span>
                       </span>
@@ -50,7 +70,15 @@ const Intro = () => {
           </div>
         </header>
         {/* Right: Image*/}
+        <div className="hero-3d-layout border-2 border-black-100">
+          <img
+            src="/images/project3.png"
+            alt="hero-3d"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
+      <AnimatedCounter />
     </section>
   );
 };

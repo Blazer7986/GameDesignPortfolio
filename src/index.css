@@ -82,7 +82,7 @@ section {
   }
 
   .hero-layout {
-    @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
+    @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex items-center justify-center;
   }
 
   .hero-text {
@@ -100,7 +100,7 @@ section {
   }
 
   .hero-3d-layout {
-    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
+    @apply xl:w-[70%] w-full h-full top-0 right-0;
   }
 
   .navbar {
@@ -156,14 +156,14 @@ section {
   }
 
   .app-showcase {
-    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
+    @apply w-full mt-20 px-5 md:px-10 py-1 flex justify-center gap-5;
 
     .showcaselayout {
-      @apply flex xl:flex-row flex-col gap-10 justify-between;
+      @apply flex flex-col xl:flex-row gap-10 justify-between;
     }
 
-    .first-project-wrapper {
-      @apply h-full flex flex-col justify-between xl:w-[60%];
+    .project-wrapper {
+      @apply h-full flex flex-col justify-between xl:w-[60%] border-2 bg-violet-400 border-violet-800 rounded-4xl px-5 py-5;
 
       .image-wrapper {
         @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
@@ -174,14 +174,14 @@ section {
       }
 
       .text-content {
-        @apply space-y-5 mt-5;
+        @apply space-y-5 mt-5 text-white-50;
 
         .badges {
           @apply flex gap-2 mb-4;
         }
 
         h2 {
-          @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+          @apply text-2xl md:text-xl lg:text-2xl font-bold;
         }
       }
     }
