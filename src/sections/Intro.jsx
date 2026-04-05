@@ -1,4 +1,3 @@
-import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import { useGSAP } from "@gsap/react";
@@ -63,9 +62,9 @@ const Intro = () => {
               impact on players.
             </p>
             <Button
-              id="button"
               text="See My Projects"
               className="md:w-80 md:h-16 w-60 h-12"
+              id="highlighted"
             />
           </div>
         </header>
@@ -78,7 +77,6 @@ const Intro = () => {
           />
         </div>
       </div>
-      <AnimatedCounter />
     </section>
   );
 };

@@ -1,7 +1,8 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: "Projects",
+    link: "#highlighted",
+    // Change to webpage link
   },
   {
     name: "Experience",

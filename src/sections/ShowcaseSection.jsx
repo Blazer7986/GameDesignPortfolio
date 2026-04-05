@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import AnimatedCounter from "../components/AnimatedCounter";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,7 +47,8 @@ const ShowcaseSection = () => {
   }, []);
 
   return (
-    <section id="work" ref={sectionRef} className=" bg-purple-800 py-10">
+    <section id="highlighted" ref={sectionRef} className=" bg-purple-800 py-10">
+      <AnimatedCounter />
       <h1 className="text-white-50 text-5xl font-bold text-center pt-10">
         Highlighted Projects
       </h1>
@@ -69,7 +71,7 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <Button
-            id="basic-button"
+            id="project1"
             text="More Info"
             className=" px-15 h-12 w-100 justify-center"
           />
@@ -88,7 +90,7 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <Button
-            id="basic-button"
+            id="project2"
             text="More Info"
             className=" px-15 h-12 w-100 justify-center"
           />
@@ -109,12 +111,18 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <Button
-            id="basic-button"
+            id="project3"
             text="More Info"
             className=" px-15 h-12 w-100 justify-center"
           />
         </div>
       </div>
+      <a
+        href="#moreprojects"
+        className="bg-violet-400 py-10 px-15 cta-button h-20 w-100  mx-auto mt-10 text-center text-2xl font-bold text-white-50 hover:bg-black-200"
+      >
+        See More Projects
+      </a>
     </section>
   );
 };

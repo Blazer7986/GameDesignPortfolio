@@ -1,9 +1,11 @@
-const Button = ({ id, text, className }) => {
+const Button = ({ text, className, id }) => {
   return (
     <a
       onClick={(e) => {
         e.preventDefault();
-        const target = document.getElementById("work");
+
+        const target = document.getElementById("highlighted");
+
         if (target && id) {
           const offset = window.innerHeight * 0.15;
           const top =
