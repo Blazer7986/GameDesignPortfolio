@@ -244,12 +244,19 @@ section {
   }
 
   .timeline-wrapper {
-    @apply absolute top-0 xl:left-[35.5vw] md:left-10 left-5 h-full flex justify-center;
+    @apply absolute top-0 xl:left-[35.5vw] left-10 h-full flex justify-center;
   }
 
   .timeline {
     @apply absolute z-30 h-[100%] -top-10 w-14 md:w-40 bg-purple-900;
-     /* bg-purple-900 */
+  }
+
+  .timeline2-wrapper {
+    @apply absolute top-0  left-10 h-full flex justify-center;
+  }
+
+  .timeline2 {
+    @apply absolute z-30 h-[100%] -top-10 w-14 md:w-40 bg-purple-900;
   }
 
   .timeline-logo {

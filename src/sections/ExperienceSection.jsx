@@ -91,9 +91,9 @@ const ExperienceSection = () => {
   return (
     <div
       id="experience"
-      className="bg-purple-900 pt-10 flex-center md:mt-40 mt-20 section-padding xl:px-0"
+      className="bg-purple-900 pt-10 flex-center mt-20 section-padding xl:px-0"
     >
-      <section className="pt-10">
+      <section className="pt-20">
         <div className="w-full h-full md:px-20 px-5 text-white-50">
           <TitleHeader
             title="Professional Work Experience"
@@ -125,13 +125,13 @@ const ExperienceSection = () => {
                             {card.title}
                           </h1>
                           <h2 className="font-semibold text-2xl">{card.sub}</h2>
-                          <p className="my-5 text-white-50">
+                          <p className="mt-5 text-white-50">
                             🗓️&nbsp;{card.date}
                           </p>
                           <p className="text-white-50 italic">
                             Responsibilities
                           </p>
-                          <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
+                          <ul className="list-disc ms-5 mt-5 flex flex-col gap-3 text-white-50">
                             {card.responsibilities.map(
                               (responsibility, index) => (
                                 <li key={index} className="text-lg">

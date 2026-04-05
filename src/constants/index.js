@@ -33,6 +33,21 @@ const navLinks = [
   // },
 ];
 
+const subNavLinks = [
+  {
+    name: "Home",
+    link: "#home",
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+  {
+    name: "About",
+    link: "#about",
+  },
+];
+
 const words = [
   { text: "Game", imgPath: "/images/ideas.svg" },
   { text: "Narrative", imgPath: "/images/concepts.svg" },
@@ -285,33 +300,27 @@ const expLogos = [
 
 const eduCards = [
   {
-    review: `jcnekjwec`,
-    imgPath: "/images/experience/NYU.png",
     logoPath: "/images/experience/NYUlogo.png",
-    title: "Fantasy League Database Website | Academic Project",
-    sub: "Full Stack Developer",
-    date: "September 2024-December 2024",
-    responsibilities: [
-      "Communicate with my colleages to efficently go over the best ORM for our database.",
-      "Designed and deployed a full stack Fantasy League web using HTML, CSS, JavaScript, MySQL, Django, and Azure",
-      "Implemented distinct user and admin authentication system with role-based permissions",
-      "Enabled user to create and manage custom teams and players.",
-      "Admin can control match creation, outcome management, and overall system maintenance.",
+    title: "New York University | Bachelor of Science in Computer Engineering",
+    sub: "Alumni",
+    date: "September 2020-January 2025",
+    details: [
+      "Activities and societies: SHPE, SWE, Designing for Creative Physical Computing VIP",
+      "SHPE: As a member of the Society of Hispanic Professional Engineers, I have the opportunity to connect with other Hispanic engineers, attend workshops and events, and participate in community service projects.",
+      "SWE: As a member of the Society of Women Engineers, I have the opportunity to connect with other women engineers, attend workshops and events, and participate in community service projects.",
     ],
   },
   {
-    review: `Vianey work alongside our team efficently by working over our budget 
-    and buying the necessary material for the prototype. She work with another programmer
-    to get the smart trash bin's functions working.`,
-    imgPath: "/images/experience/NYU.png",
-    logoPath: "/images/experience/NYUlogo.png",
-    title: "CleanCycle's Smart Trash Bin | Academic Project",
-    sub: "Audrino C Developer & Planner",
-    date: "January 2024-May 2024",
-    responsibilities: [
-      "Communicate with my colleages to efficently go over our budget and build material necessary for the prototype.",
-      "Programmed interaction logic using Arduino and documented hardware flow.",
-      "Designed and built a trash bin that uses ultrasound sensors and servo motors.",
+    logoPath: "/images/personal/QTlogo.png",
+    title: "Queens Technical High School | High School Diploma",
+    sub: "High School Graduate",
+    date: "September 2016-June 2020",
+    details: [
+      "Activities and societies: SCS College Readiness Program, Robotics Club, Poetry Club, Book Club, and the National Honor Society.",
+      "SCS College Readiness Program: At Sunnyside, I participate in a college readiness program that is focused on building college applications and preparing students for their futures.",
+      "Robotics Club: Alongside a team of 40 students, I designed robots, coded language, and used Java to control the robot’s movements for competitions.",
+      "Poetry Club: Using various poems and photos as inspiration, we explore and experiment with various forms of poetry in order to articulate and examine poetic traditions.",
+      "Book Club Member: Through constructive conversation and close reading, I discuss with other club members plots as well as analyze key themes and human experiences within the novels we read.",
     ],
   },
 ];
@@ -392,4 +401,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  subNavLinks,
 };

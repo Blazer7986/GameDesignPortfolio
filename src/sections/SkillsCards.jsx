@@ -2,8 +2,8 @@ import { skills } from "../constants/index.js";
 
 const SkillsCards = () => {
   return (
-    <div id="skills" className="w-full padding-x-lg p-10">
-      <h1 className="text-5xl font-bold text-center py-10">Skills</h1>
+    <div id="skills" className="w-full padding-x-lg pt-20">
+      <h1 className="text-5xl font-bold text-center pt-10 pb-10">Skills</h1>
       <div className="mx-auto grid-3-cols">
         {skills.map(({ imgPath, title, sub, desc }) => (
           <div key={title} className="card-border rounded-xl p-8 flex flex-col">

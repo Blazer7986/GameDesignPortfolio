@@ -13,7 +13,7 @@ const App = () => {
       <ShowcaseSection />
       <SkillsCards />
       <ExperienceSection />
-      {/* <EducationSection /> */}
+      <EducationSection />
     </>
   );
 };
