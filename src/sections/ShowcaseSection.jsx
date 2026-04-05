@@ -47,7 +47,7 @@ const ShowcaseSection = () => {
   }, []);
 
   return (
-    <section id="highlighted" ref={sectionRef} className=" bg-purple-800 py-10">
+    <section id="highlighted" ref={sectionRef} className="bg-purple-800 py-10">
       <AnimatedCounter />
       <h1 className="text-white-50 text-5xl font-bold text-center pt-10">
         Highlighted Projects
@@ -70,11 +70,12 @@ const ShowcaseSection = () => {
               outcome.
             </p>
           </div>
-          <Button
-            id="project1"
-            text="More Info"
-            className=" px-15 h-12 w-100 justify-center"
-          />
+          <a
+            href="#moreprojects"
+            className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
+          >
+            More Info
+          </a>
         </div>
         {/* Middle Project*/}
         <div className="project-wrapper" ref={project2Ref}>
@@ -89,11 +90,12 @@ const ShowcaseSection = () => {
               tourament with your customized teams.
             </p>
           </div>
-          <Button
-            id="project2"
-            text="More Info"
-            className=" px-15 h-12 w-100 justify-center"
-          />
+          <a
+            href="#moreprojects"
+            className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
+          >
+            More Info
+          </a>
         </div>
         {/* Right Project*/}
         <div className="project-wrapper" ref={project3Ref}>
@@ -110,16 +112,17 @@ const ShowcaseSection = () => {
               capabilities, making it an essential tool for modern urban living.
             </p>
           </div>
-          <Button
-            id="project3"
-            text="More Info"
-            className=" px-15 h-12 w-100 justify-center"
-          />
+          <a
+            href="#moreprojects"
+            className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
+          >
+            More Info
+          </a>
         </div>
       </div>
       <a
         href="#moreprojects"
-        className="bg-violet-400 py-10 px-15 cta-button h-20 w-100  mx-auto mt-10 text-center text-2xl font-bold text-white-50 hover:bg-black-200"
+        className="bg-violet-400  text-3xl basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
       >
         See More Projects
       </a>

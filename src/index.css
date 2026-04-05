@@ -163,7 +163,7 @@ section {
     }
 
     .project-wrapper {
-      @apply h-full flex flex-col justify-between xl:w-[60%] border-2 bg-violet-400 border-violet-800 rounded-4xl px-5 py-5;
+      @apply h-full flex flex-col justify-between xl:w-[60%] border-2 bg-violet-900 border-violet-950 rounded-4xl px-5 py-10;
 
       .image-wrapper {
         @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
@@ -207,6 +207,10 @@ section {
     @apply relative z-20 cursor-pointer;
   }
 
+  .basicbutton {
+      @apply py-10 px-15 h-20 w-100  mx-auto mt-10 text-center text-2xl  hover:text-white-50;
+  }
+  
   .cta-button {
     @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
 

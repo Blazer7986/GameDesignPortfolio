@@ -1,16 +1,31 @@
 const navLinks = [
   {
-    name: "Projects",
-    link: "#highlighted",
+    name: "Home",
+    link: "#home",
     // Change to webpage link
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+    // Change to webpage link
+  },
+  {
+    name: "About",
+    link: "#about",
+    // Change to webpage link
+  },
+  {
+    name: "Skills",
+    link: "#skills",
   },
   {
     name: "Experience",
     link: "#experience",
   },
   {
-    name: "Skills",
-    link: "#skills",
+    name: "Education",
+    link: "#education",
+    // Change to webpage link
   },
   // {
   //   name: "Testimonials",
