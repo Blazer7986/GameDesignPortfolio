@@ -4,7 +4,7 @@ const TitleHeader = ({ title, sub }) => {
       <div className="font-semibold text-5xl text-center">{title}</div>
 
       <div className="hero-badge">
-        <p>{sub}</p>
+        <p className="text-white-50">{sub}</p>
       </div>
     </div>
   );

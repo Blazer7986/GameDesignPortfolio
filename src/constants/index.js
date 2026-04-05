@@ -164,11 +164,7 @@ const techStackImgs = [
     imgPath: "/images/logos/blender.png",
   },
   {
-    name: "Godot Developer",
-    imgPath: "/images/logos/godot.png",
-  },
-  {
-    name: "Aspeite Artist",
+    name: "Aseprite Artist",
     imgPath: "/images/logos/aseprite.png",
   },
   {
@@ -195,12 +191,6 @@ const techStackIcons = [
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
   },
   {
     name: "Project Manager",

@@ -1,0 +1,77 @@
+import TitleHeader from "../components/TitleHeader";
+import { techStackIcons, techStackImgs } from "../constants";
+import TechIcon from "../components/Models/TechLogos/TechIcon";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
+const TechStack = () => {
+  useGSAP(() => {
+    gsap.fromTo(
+      ".tech-card",
+      { y: 50, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        ease: "power2.inOut",
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: "#skills",
+          start: "top center",
+        },
+      },
+    );
+  });
+
+  return (
+    <div className="flex-center pt-10">
+      <div className="w-full h-full px-5">
+        <TitleHeader
+          title="Preferred Tech Stack"
+          sub="The Skills I Bring to the Table"
+        />
+        <div className="tech-grid">
+          {techStackImgs.map((icon) => (
+            <div
+              key={icon.name}
+              className="card-border tech-card overflow-hidden group 
+              xl:rounded-full rounded-lg"
+            >
+              <div className="tech-card-animated-bg" />
+              <div className="tech-card-content">
+                <div className="tech-icon-wrapper">
+                  <img src={icon.imgPath} />
+                </div>
+                <div className="padding-x w-full">
+                  <p className="pb-10">{icon.name}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+
+          {techStackIcons.map((icon) => (
+            <div
+              key={icon.name}
+              className="card-border tech-card  group 
+              xl:rounded-full rounded-lg"
+              // overflow-hidden
+            >
+              <div className="tech-card-animated-bg" />
+              <div className="tech-card-content">
+                <div className="tech-icon-wrapper">
+                  <TechIcon model={icon} />
+                </div>
+
+                <div className="padding-x w-full">
+                  <p className="pb-10">{icon.name}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TechStack;
