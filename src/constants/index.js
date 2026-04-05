@@ -76,31 +76,66 @@ const logoIconsList = [
   },
 ];
 
-const abilities = [
+const skills = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/skills/seo.png",
+    title: "Unreal Engine",
+    sub: "Blueprints & C++",
+    desc: "Having clean and organized code. I have experience in Unreal Engine to create immersive gaming experiences.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/skills/books.png",
+    title: "Blender",
+    sub: "Basic 3D Modeling & Animation",
+    desc: "Designing and animating 3D models using Blender to bring game assets to life.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "/images/skills/creative.png",
+    title: "Aseprite",
+    sub: "Pixel Art Creation",
+    desc: "Creating detailed pixel art for game assets.",
+  },
+  {
+    imgPath: "/images/skills/seo.png",
+    title: "Web Development",
+    sub: "HTML, CSS, JavaScript, React",
+    desc: "Keeping up with the latest web development trends and technologies to deliver modern, responsive websites.",
+  },
+  {
+    imgPath: "/images/skills/books.png",
+    title: "Programming Languages & Database Management",
+    sub: "Python, C++, SQL",
+    desc: "Keeping up with the latest programming languages and technologies to deliver efficient and scalable solutions and managing databases.",
+  },
+  {
+    imgPath: "/images/skills/devices.png",
+    title: "Code Management",
+    sub: "Git & GitHub",
+    desc: "Use version controls and collaboration to ensure efficient code management and teamwork.",
+  },
+  {
+    imgPath: "/images/skills/devices.png",
+    title: "Project Management",
+    sub: "Google Workspace & Microsoft 365",
+    desc: "Organizing and managing projects effectively to ensure smooth collaboration and successful project delivery.",
+  },
+  {
+    imgPath: "/images/skills/time.png",
     title: "Time Management",
+    sub: "Trello, Hack N' Plan, ClickUp",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
   {
-    imgPath: "/images/books.png",
-    title: "Learner",
-    desc: "Always ready to learn new software development skills. Takes the time to learn a new skill.",
+    imgPath: "/images/skills/creative.png",
+    title: "Creative Design",
+    sub: "Figma, Adobe Creative Suite",
+    desc: "Designing visually appealing and user-friendly interfaces and assets.",
   },
   {
-    imgPath: "/images/creative.png",
-    title: "Creative",
-    desc: "Always up to creating new projects that falls about web, game, or product development.",
+    imgPath: "/images/skills/chat.png",
+    title: "Reliable Communication",
+    sub: "Discord, Gmail",
+    desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
 ];
 
@@ -250,45 +285,45 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Name1",
+    mentions: "@name1",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Vianey. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Name2",
+    mentions: "@name2",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Vianey was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Name3",
+    mentions: "@name3",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Vianey was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vianey's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vianey is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Name4",
+    mentions: "@name4",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Vianey was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Name5",
+    mentions: "@name5",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Vianey’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. She’s a true professional!",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Name6",
+    mentions: "@name6",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Vianey was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
@@ -313,7 +348,7 @@ const socialImgs = [
 
 export {
   words,
-  abilities,
+  skills,
   logoIconsList,
   counterItems,
   expCards,

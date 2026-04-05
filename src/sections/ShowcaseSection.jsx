@@ -47,7 +47,7 @@ const ShowcaseSection = () => {
   }, []);
 
   return (
-    <section id="highlighted" ref={sectionRef} className="bg-purple-800 py-10">
+    <section id="highlighted" ref={sectionRef} className="bg-purple-950 py-10">
       <AnimatedCounter />
       <h1 className="text-white-50 text-5xl font-bold text-center pt-10">
         Highlighted Projects
@@ -56,7 +56,7 @@ const ShowcaseSection = () => {
         {/* Left Project*/}
         <div className="project-wrapper" ref={project1Ref}>
           <div className="image-wrapper">
-            <img src="/images/project3.png" alt="Rogue Detective" />
+            <img src="/images/projects/project3.png" alt="Rogue Detective" />
           </div>
           <div className="text-content">
             <h2>Rogue Detective</h2>
@@ -80,7 +80,7 @@ const ShowcaseSection = () => {
         {/* Middle Project*/}
         <div className="project-wrapper" ref={project2Ref}>
           <div className="image-wrapper">
-            <img src="/images/project1.jpeg" alt="Website" />
+            <img src="/images/projects/project1.jpeg" alt="Website" />
           </div>
           <div className="text-content">
             <h2>Fantasy League Database Website</h2>
@@ -100,7 +100,7 @@ const ShowcaseSection = () => {
         {/* Right Project*/}
         <div className="project-wrapper" ref={project3Ref}>
           <div className="image-wrapper">
-            <img src="/images/project2.png" alt="Rogue Detective" />
+            <img src="/images/projects/project2.png" alt="Rogue Detective" />
           </div>
           <div className="text-content">
             <h2>CleanCycle's Smart Trash Bin Product</h2>
