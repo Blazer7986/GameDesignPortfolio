@@ -71,7 +71,7 @@ const Intro = () => {
         {/* Right: Image*/}
         <div className="hero-3d-layout border-2 border-black-100">
           <img
-            src="/images/project3.png"
+            src="/images/projects/project3.png"
             alt="hero-3d"
             className="w-full h-full object-cover"
           />

@@ -199,8 +199,8 @@ const expCards = [
   {
     review: `Vianey brought creativity and technical expertise to the team, significantly 
       improving our frontend and backend performance.`,
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/experience/NYU.png",
+    logoPath: "/images/experience/NYUlogo.png",
     title: "Fantasy League Database Website | Academic Project",
     sub: "Full Stack Developer",
     date: "September 2024-December 2024",
@@ -216,8 +216,8 @@ const expCards = [
     review: `Vianey work alongside our team efficently by working over our budget 
     and buying the necessary material for the prototype. She work with another programmer
     to get the smart trash bin's functions working.`,
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/experience/NYU.png",
+    logoPath: "/images/experience/NYUlogo.png",
     title: "CleanCycle's Smart Trash Bin | Academic Project",
     sub: "Audrino C Developer & Planner",
     date: "January 2024-May 2024",
@@ -229,8 +229,8 @@ const expCards = [
   },
   {
     review: `Vianey was able to work on the project solo or within a group.`,
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/experience/NYU.png",
+    logoPath: "/images/experience/NYUlogo.png",
     title:
       "Designing for Creative Physical Computing VIP | Extracurricular Activities",
     sub: "Audrino C Developer",
@@ -243,8 +243,8 @@ const expCards = [
   },
   {
     review: `I was able to learn about many libraries and frameworks to develop more skills in data science.`,
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/experience/NYU.png",
+    logoPath: "/images/experience/NYUlogo.png",
     title: "Data Science Bootcamp | Extracurricular Activities",
     sub: "Extern",
     date: "February 2022-May 2022",
@@ -255,8 +255,8 @@ const expCards = [
   },
   {
     review: `I was able to learn web development and programming languages. This would be my inspiration to become an engineer in the future.`,
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/experience/GirlsWhoCode.png",
+    logoPath: "/images/experience/GirlsWhoCodeLogo.jpeg",
     title: "Intern: Girls Who Code Summer Internship | Work Experience",
     sub: "Intern",
     date: "July 2018-August 2018",
@@ -280,6 +280,39 @@ const expLogos = [
   {
     name: "logo3",
     imgPath: "/images/logo3.png",
+  },
+];
+
+const eduCards = [
+  {
+    review: `jcnekjwec`,
+    imgPath: "/images/experience/NYU.png",
+    logoPath: "/images/experience/NYUlogo.png",
+    title: "Fantasy League Database Website | Academic Project",
+    sub: "Full Stack Developer",
+    date: "September 2024-December 2024",
+    responsibilities: [
+      "Communicate with my colleages to efficently go over the best ORM for our database.",
+      "Designed and deployed a full stack Fantasy League web using HTML, CSS, JavaScript, MySQL, Django, and Azure",
+      "Implemented distinct user and admin authentication system with role-based permissions",
+      "Enabled user to create and manage custom teams and players.",
+      "Admin can control match creation, outcome management, and overall system maintenance.",
+    ],
+  },
+  {
+    review: `Vianey work alongside our team efficently by working over our budget 
+    and buying the necessary material for the prototype. She work with another programmer
+    to get the smart trash bin's functions working.`,
+    imgPath: "/images/experience/NYU.png",
+    logoPath: "/images/experience/NYUlogo.png",
+    title: "CleanCycle's Smart Trash Bin | Academic Project",
+    sub: "Audrino C Developer & Planner",
+    date: "January 2024-May 2024",
+    responsibilities: [
+      "Communicate with my colleages to efficently go over our budget and build material necessary for the prototype.",
+      "Programmed interaction logic using Arduino and documented hardware flow.",
+      "Designed and built a trash bin that uses ultrasound sensors and servo motors.",
+    ],
   },
 ];
 
@@ -353,6 +386,7 @@ export {
   counterItems,
   expCards,
   expLogos,
+  eduCards,
   testimonials,
   socialImgs,
   techStackIcons,
