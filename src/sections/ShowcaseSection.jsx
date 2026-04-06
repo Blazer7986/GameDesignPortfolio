@@ -56,10 +56,17 @@ const ShowcaseSection = () => {
         {/* Left Project*/}
         <div className="project-wrapper" ref={project1Ref}>
           <div className="image-wrapper">
-            <img src="/images/projects/project3.png" alt="Rogue Detective" />
+            <Link to="/projects/project1">
+              <img src="/images/projects/project3.png" alt="Rogue Detective" />
+            </Link>
           </div>
           <div className="text-content">
-            <h2>Rogue Detective</h2>
+            <h2 className="mb-2">Rogue Detective</h2>
+            <div className="flex gap-2 mt-0 mb-3 text-lg font-semibold">
+              <p className="bg-blue-500 px-2 rounded-lg">Unreal Engine</p>
+              <p className="bg-red-400 px-2 rounded-lg">Blender</p>
+              <p className="bg-green-600 px-2 rounded-lg">Hack N' Plan</p>
+            </div>
             <p className="md:text-xl pb-5">
               Rogue Detective is an action-adventure game that follows a
               detective on a quest to solve crimes, save civilians from
@@ -71,7 +78,7 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <Link
-            to="/"
+            to="/projects/project1"
             className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
           >
             More Info
@@ -80,10 +87,22 @@ const ShowcaseSection = () => {
         {/* Middle Project*/}
         <div className="project-wrapper" ref={project2Ref}>
           <div className="image-wrapper">
-            <img src="/images/projects/project1.jpeg" alt="Website" />
+            <Link to="/projects/project2">
+              <img
+                src="/images/projects/project1.jpeg"
+                className="object-cover"
+                alt="Website"
+              />
+            </Link>
           </div>
           <div className="text-content">
-            <h2>Fantasy League Database Website</h2>
+            <h2 className="mb-2">Fantasy League Database Website</h2>
+            <div className="flex gap-2 mt-0 mb-3 text-lg font-semibold">
+              <p className="bg-cyan-600 px-2 rounded-lg">Web Dev</p>
+              <p className="bg-cyan-700 px-2 rounded-lg">React</p>
+              <p className="bg-cyan-800 px-2 rounded-lg">Django</p>
+              <p className="bg-blue-600 px-2 rounded-lg">Python</p>
+            </div>
             <p className="md:text-xl pb-5">
               An app built with Python, Django, & React for a fast,
               user-friendly experience to create their own Baseball League
@@ -91,7 +110,7 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <Link
-            to="/"
+            to="/projects/project2"
             className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
           >
             More Info
@@ -100,10 +119,17 @@ const ShowcaseSection = () => {
         {/* Right Project*/}
         <div className="project-wrapper" ref={project3Ref}>
           <div className="image-wrapper">
-            <img src="/images/projects/project2.png" alt="Rogue Detective" />
+            <Link to="/projects/project3">
+              <img src="/images/projects/project2.png" alt="TrashBin" />
+            </Link>
           </div>
           <div className="text-content">
-            <h2>CleanCycle's Smart Trash Bin Product</h2>
+            <h2 className="mb-2">CleanCycle's Smart Trash Bin Product</h2>
+            <div className="flex gap-2 mt-0 mb-3 text-lg font-semibold">
+              <p className="bg-blue-700 px-2 rounded-lg">C++</p>
+              <p className="bg-purple-700 px-2 rounded-lg">Arduino</p>
+              <p className="bg-green-800 px-2 rounded-lg">Trello</p>
+            </div>
             <p className="md:text-xl pb-5">
               CleanCycle's Smart Trash Bin is an innovative solution for waste
               management, utilizing AI and IoT technology to optimize waste
@@ -113,7 +139,7 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <Link
-            to="/"
+            to="/projects/project3"
             className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
           >
             More Info

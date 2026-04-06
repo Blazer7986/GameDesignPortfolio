@@ -156,20 +156,20 @@ section {
   }
 
   .app-showcase {
-    @apply w-full mt-20 px-5 md:px-10 py-1 flex justify-center gap-5;
+    @apply  w-full mt-5 px-5 md:px-10 py-10  flex justify-center gap-3;
 
     .showcaselayout {
       @apply flex flex-col xl:flex-row gap-10 justify-between;
     }
 
     .project-wrapper {
-      @apply h-full flex flex-col justify-between xl:w-[60%] border-2 bg-violet-900 border-violet-950 rounded-4xl px-5 py-10;
+      @apply h-full flex flex-col justify-between xl:w-[60%] border-2 bg-violet-900 border-violet-950 rounded-2xl px-5 py-10;
 
       .image-wrapper {
         @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
 
         img {
-          @apply w-full h-full object-cover rounded-xl absolute inset-0;
+          @apply w-full h-full object-cover rounded-sm absolute inset-0;
         }
       }
 
@@ -181,7 +181,7 @@ section {
         }
 
         h2 {
-          @apply text-2xl md:text-xl lg:text-2xl font-bold;
+          @apply text-3xl md:text-2xl lg:text-3xl font-bold;
         }
       }
     }
@@ -203,12 +203,52 @@ section {
     }
   }
 
+
+  .single-project {
+    @apply  w-full py-10 px-10 flex flex-col justify-between;
+
+    .project-wrapper {
+      @apply h-full flex flex-col justify-between;
+
+      .image-wrapper {
+        @apply xl:h-[70vh] md:h-[50vh] h-96;
+        /* xl:h-[70vh] md:h-[50vh] h-96 relative */
+        img {
+          @apply w-full h-full object-cover inset-0;
+        }
+      }
+
+      .image-wrapper2 {
+        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+
+        img {
+          @apply w-full h-full object-contain rounded-sm absolute inset-0;
+        }
+      }
+
+      .text-content {
+        @apply space-y-5 mt-5;
+
+        .badges {
+          @apply flex gap-2 mb-4;
+        }
+
+        h2 {
+          @apply text-3xl md:text-2xl lg:text-3xl font-semibold;
+        }
+        h3 {
+          @apply text-2xl md:text-xl lg:text-2xl font-semibold;
+        }
+      }
+    }
+  }
+
   .cta-wrapper {
     @apply relative z-20 cursor-pointer;
   }
 
   .basicbutton {
-      @apply py-10 px-15 h-20 w-100  mx-auto mt-10 text-center text-2xl  hover:text-white-50;
+      @apply mt-10 text-center text-2xl  hover:text-white-50  px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
   }
   
   .cta-button {
