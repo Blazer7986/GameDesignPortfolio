@@ -4,18 +4,24 @@ import ExperienceSection from "./sections/ExperienceSection";
 import Intro from "./sections/Intro";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import SkillsCards from "./sections/SkillsCards";
-import TechStack from "./sections/TechStack";
+import Footer from "./sections/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 
 const App = () => {
   return (
     <>
-      <NavBar />
-      <Intro />
-      <ShowcaseSection />
-      <SkillsCards />
-      <TechStack />
-      <ExperienceSection />
-      <EducationSection />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };

@@ -56,7 +56,7 @@ const TechStack = () => {
               xl:rounded-full rounded-lg"
               // overflow-hidden
             >
-              <div className="tech-card-animated-bg" />
+              <div />
               <div className="tech-card-content">
                 <div className="tech-icon-wrapper">
                   <TechIcon model={icon} />

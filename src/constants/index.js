@@ -363,17 +363,17 @@ const testimonials = [
 const socialImgs = [
   {
     name: "Business Email",
-    imgPath: "/images/gm.png",
+    imgPath: "/images/footer/gm.png",
     linkPath: "vianeyr8624@gmail.com",
   },
   {
     name: "GitHub",
-    imgPath: "/images/gh.png",
+    imgPath: "/images/footer/gh.png",
     linkPath: "https://github.com/Blazer7986",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/footer/linkedin.png",
     linkPath: "https://www.linkedin.com/in/vianey-rivera-b21326168/",
   },
 ];

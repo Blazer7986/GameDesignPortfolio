@@ -91,7 +91,7 @@ const ExperienceSection = () => {
   return (
     <div
       id="experience"
-      className="bg-purple-900 pt-10 flex-center mt-20 section-padding xl:px-0"
+      className="bg-purple-900 pt-10 flex-center mt-20 mb-0 section-padding xl:px-0"
     >
       <section className="pt-20">
         <div className="w-full h-full md:px-20 px-5 text-white-50">
