@@ -1,10 +1,3 @@
-import NavBar from "./components/NavBar";
-import EducationSection from "./sections/EducationSection";
-import ExperienceSection from "./sections/ExperienceSection";
-import Intro from "./sections/Intro";
-import ShowcaseSection from "./sections/ShowcaseSection";
-import SkillsCards from "./sections/SkillsCards";
-import Footer from "./sections/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";

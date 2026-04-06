@@ -119,12 +119,14 @@ const ProjectShowcase = () => {
           </a>
         </div>
       </div>
-      <a
-        href="#moreprojects"
-        className="bg-violet-400  text-3xl basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
-      >
-        See More Projects
-      </a>
+
+      <h1 className="text-5xl font-bold text-center pt-10">
+        Personal Projects
+      </h1>
+
+      <h1 className="text-5xl font-bold text-center pt-10">
+        Game Jams Projects
+      </h1>
     </section>
   );
 };

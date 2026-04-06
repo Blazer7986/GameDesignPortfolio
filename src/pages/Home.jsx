@@ -13,10 +13,8 @@ const Home = () => {
       <Intro />
       <ShowcaseSection />
       <SkillsCards />
-      {/* <TechStack /> Place Into About Webpage */}
       <ExperienceSection />
       <EducationSection />
-      {/* <ContactSection /> Place Into Contact Webpage */}
       <Footer />
     </>
   );

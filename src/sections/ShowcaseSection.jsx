@@ -1,9 +1,9 @@
 import { useRef } from "react";
-import Button from "../components/Button";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import AnimatedCounter from "../components/AnimatedCounter";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -70,12 +70,12 @@ const ShowcaseSection = () => {
               outcome.
             </p>
           </div>
-          <a
-            href="#moreprojects"
+          <Link
+            to="/"
             className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
           >
             More Info
-          </a>
+          </Link>
         </div>
         {/* Middle Project*/}
         <div className="project-wrapper" ref={project2Ref}>
@@ -90,12 +90,12 @@ const ShowcaseSection = () => {
               tourament with your customized teams.
             </p>
           </div>
-          <a
-            href="#moreprojects"
+          <Link
+            to="/"
             className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
           >
             More Info
-          </a>
+          </Link>
         </div>
         {/* Right Project*/}
         <div className="project-wrapper" ref={project3Ref}>
@@ -112,20 +112,20 @@ const ShowcaseSection = () => {
               capabilities, making it an essential tool for modern urban living.
             </p>
           </div>
-          <a
-            href="#moreprojects"
+          <Link
+            to="/"
             className="bg-violet-300 my-0 basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
           >
             More Info
-          </a>
+          </Link>
         </div>
       </div>
-      <a
-        href="#moreprojects"
+      <Link
+        to="/projects"
         className="bg-violet-400  text-3xl basicbutton cta-button hover:bg-black-200 ease-in-out duration-300"
       >
         See More Projects
-      </a>
+      </Link>
     </section>
   );
 };
