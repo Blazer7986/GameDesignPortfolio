@@ -1,27 +1,13 @@
-import { navLinks } from "../constants/index.js";
 import SubNavBar from "./SubNavBar.jsx";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar2 = () => {
   return (
     <header className="navbar bg-purple-200">
       <div className="inner">
         <a className="logo">Vianey Rivera </a>
 
         <SubNavBar />
-
-        <nav className="desktop">
-          <ul>
-            {navLinks.map(({ link, name }) => (
-              <li key={name} className="group">
-                <a href={link}>
-                  <span>{name}</span>
-                  <span className="underline"></span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
 
         <nav className="desktop gap-2">
           <a
@@ -44,4 +30,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBar2;

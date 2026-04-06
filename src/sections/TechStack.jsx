@@ -25,7 +25,7 @@ const TechStack = () => {
 
   return (
     <div className="flex-center pt-10">
-      <div className="w-full h-full px-5">
+      <div className="w-full h-full px-5 py-10">
         <TitleHeader
           title="Preferred Tech Stack"
           sub="The Skills I Bring to the Table"

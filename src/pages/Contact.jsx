@@ -1,7 +1,17 @@
-import React from "react";
+import NavBar2 from "../components/NavBar2";
+import ContactSection from "../sections/ContactSection";
+import Footer from "../sections/Footer";
+import Socials from "../sections/Socials";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <>
+      <NavBar2 />
+      <Socials />
+      <ContactSection />
+      <Footer />
+    </>
+  );
 };
 
 export default Contact;

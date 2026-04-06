@@ -41,11 +41,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="flex-center section-padding">
-      <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader title="Get In Touch With Me" sub="Contact Information" />
-
-        <div className="mt-16 grid-12-cols">
+    <section id="contact" className="flex-center py-10">
+      <div className="w-full h-full px-5">
+        <TitleHeader title="Get In Touch With Me" sub="Contact Form" />
+        <div className="pt-5 ">
           {/* Contact Form - Left Side */}
           <div className="xl:col-span-7">
             <div className="flex-center card-border rounded-xl p-10">
@@ -102,24 +101,6 @@ const Contact = () => {
                   </div>
                 </button>
               </form>
-            </div>
-          </div>
-          {/* Socials - Right Side */}
-          <div className="xl:col-span-5 min-h-96">
-            <div
-              className="w-full h-full bg-purple-900
-              rounded-3xl overflow-hidden text-white-50 text-center px-10 py-10"
-            >
-              <h1 className="text-3xl font-bold pb-10">Socials</h1>
-              <ul className="list-disc text-left gap-5 text-lg">
-                <li>Gmail: example@gmail.com</li>
-                <li>LinkedIn: linkedin.com/in/example</li>
-                <li>GitHub: github.com/example</li>
-                <li>Twitter: twitter.com/example</li>
-                <li>Instagram: instagram.com/example</li>
-                <li>Inchio Page: inchio.com/example</li>
-                <li>Steam Page: Unavaible</li>
-              </ul>
             </div>
           </div>
         </div>

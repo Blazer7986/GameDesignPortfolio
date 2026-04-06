@@ -1,20 +1,5 @@
 const navLinks = [
   {
-    name: "Home",
-    link: "#home",
-    // Change to webpage link
-  },
-  {
-    name: "Projects",
-    link: "#projects",
-    // Change to webpage link
-  },
-  {
-    name: "About",
-    link: "#about",
-    // Change to webpage link
-  },
-  {
     name: "Skills",
     link: "#skills",
   },
@@ -36,15 +21,15 @@ const navLinks = [
 const subNavLinks = [
   {
     name: "Home",
-    link: "#home",
+    link: "/",
   },
   {
     name: "Projects",
-    link: "#projects",
+    link: "/projects",
   },
   {
     name: "About",
-    link: "#about",
+    link: "/about",
   },
 ];
 

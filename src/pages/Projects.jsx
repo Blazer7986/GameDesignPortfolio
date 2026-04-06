@@ -1,7 +1,15 @@
-import React from "react";
+import NavBar2 from "../components/NavBar2";
+import ProjectShowcase from "../sections/ProjectShowcase";
+import Footer from "../sections/Footer";
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <>
+      <NavBar2 />
+      <ProjectShowcase />
+      <Footer />
+    </>
+  );
 };
 
 export default Projects;
