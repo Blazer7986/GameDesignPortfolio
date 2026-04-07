@@ -14,17 +14,6 @@ const Project1 = () => {
         <div className="single-project">
           <div className="project-wrapper">
             <div id="overview">
-              {/* <div className="image-wrapper grid grid-cols-2 gap-3">
-                <img
-                  src="../../images/projects/project3.png"
-                  alt="Rogue Detective"
-                />
-                <img
-                  src="../../images/projects/project3.png"
-                  alt="Rogue Detective"
-                />
-              </div> */}
-
               <div className="mt-5 h-128 w-4xl overflow-hidden mx-auto">
                 <video
                   className="h-full w-full object-cover"
@@ -72,11 +61,6 @@ const Project1 = () => {
                 <p className="text-xl pb-5">P</p>
                 <h3 className="mb-2">Inventory System </h3>
                 <p className="text-xl pb-10">P</p>
-
-                {/* <h2>Demo Overview</h2>
-            <video autoplay muted loop>
-              <source src="/" type="video/mp4" />
-            </video> */}
               </div>
             </div>
 
@@ -97,23 +81,28 @@ const Project1 = () => {
                   Terra Street connect multiple character interactions, combat
                   encounters, and traversal challenges.
                 </p>
-                <div className="image-wrapper grid grid-cols-2 gap-3">
+
+                <div className="image-wrapper grid grid-cols-2 gap-3 mb-0">
                   <img
-                    src="../../images/projects/project3.png"
+                    className="object-contain"
+                    src="../../images/projects//RogueDetective/Dialogue/UI.png"
                     alt="Rogue Detective"
                   />
                   <img
-                    src="../../images/projects/project3.png"
+                    className="object-contain"
+                    src="../../images/projects//RogueDetective/Inventory/Table1.png"
                     alt="Rogue Detective"
                   />
                 </div>
-                <div className="image-wrapper grid grid-cols-2 gap-3">
+                <div className="image-wrapper mt-0 grid grid-cols-2 gap-3">
                   <img
-                    src="../../images/projects/project3.png"
+                    className="object-contain"
+                    src="../../images/projects/RogueDetective/Environment.png"
                     alt="Rogue Detective"
                   />
                   <img
-                    src="../../images/projects/project3.png"
+                    className="object-contain"
+                    src="../../images/projects/RogueDetective/Sneak.png"
                     alt="Rogue Detective"
                   />
                 </div>

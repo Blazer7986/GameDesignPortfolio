@@ -211,7 +211,7 @@ section {
       @apply h-full flex flex-col justify-between;
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96;
+        @apply h-full pb-5 relative;
         /* xl:h-[70vh] md:h-[50vh] h-96 relative */
         img {
           @apply w-full h-full object-cover inset-0;
