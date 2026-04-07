@@ -50,7 +50,7 @@ const Project1 = () => {
                   investigate the crime scene.
                 </p>
                 <p className="text-xl pb-5">
-                  I started the projet from scartch.{" "}
+                  I started the project from scartch.
                 </p>
 
                 <h2 className="mb-2">Technical & Soft Skills Used:</h2>
@@ -71,7 +71,7 @@ const Project1 = () => {
                 <h3 className="mb-2">Dialogue System </h3>
                 <p className="text-xl pb-5">P</p>
                 <h3 className="mb-2">Inventory System </h3>
-                <p className="text-xl pb-5">P</p>
+                <p className="text-xl pb-10">P</p>
 
                 {/* <h2>Demo Overview</h2>
             <video autoplay muted loop>
@@ -80,7 +80,7 @@ const Project1 = () => {
               </div>
             </div>
 
-            <div>--</div>
+            <hr class="border-t-3 border-gray-300 pb-5" />
 
             <div id="Level1">
               <div className="text-content">
@@ -204,7 +204,7 @@ const Project1 = () => {
                   <li>O2</li>
                 </ul>
                 <p className="text-xl mb-2">Learnings:</p>
-                <ul className="list-disc list-inside text-xl">
+                <ul className="list-disc list-inside text-xl pb-10">
                   <li>L1</li>
                   <li>L2</li>
                 </ul>
@@ -216,7 +216,7 @@ const Project1 = () => {
               </div>
             </div>
 
-            <div>--</div>
+            <hr class="border-t-3 border-gray-300 pb-5" />
 
             <div id="Level2">
               <div className="text-content">

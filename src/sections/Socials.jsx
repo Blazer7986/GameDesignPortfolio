@@ -25,27 +25,40 @@ const Socials = () => {
       <div className="mt-30">
         <header className="intro-header flex flex-col justify-center md:w-full w-screen md:pl-20 pr-10 px-5">
           <div className="flex flex-col py-10">
-            <div className="hero-text">
+            <div className="hero-text pointer-events-auto">
               <h1 className="text-6xl font-bold text-center pb-10">
                 Contact Me
               </h1>
-              <ul className="text-center gap-3 text-lg grid grid-cols-2">
+
+              <ul className="text-center gap-3 text-xl grid grid-cols-2">
                 <li>
-                  <a href="mailto:vianeyr8624@gmail.com" target="_blank">
-                    Gmail: vianeyr8624@gmail.com
+                  <b>Gmail: </b>
+                  <a
+                    className="hover:text-purple-200"
+                    href="mailto:vianeyr8624@gmail.com"
+                    target="_blank"
+                  >
+                    vianeyr8624@gmail.com
                   </a>
                 </li>
                 <li>
+                  <b>LinkedIn: </b>
                   <a
+                    className="hover:text-purple-200"
                     href="https://linkedin.com/in/vianeyrivera"
                     target="_blank"
                   >
-                    LinkedIn: linkedin.com/in/vianeyrivera
+                    linkedin.com/in/vianeyrivera
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/Blazer7986" target="_blank">
-                    GitHub:github.com/Blazer7986
+                  <b>GitHub: </b>
+                  <a
+                    className="hover:text-purple-200"
+                    href="https://github.com/Blazer7986"
+                    target="_blank"
+                  >
+                    github.com/Blazer7986
                   </a>
                 </li>
                 {/* <li>

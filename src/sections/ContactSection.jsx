@@ -21,8 +21,8 @@ const Contact = () => {
   const handleSumbit = async (e) => {
     e.preventDefault();
     // Handle submission logic here
-
     setLoading(true);
+
     try {
       await emailjs.sendForm(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
