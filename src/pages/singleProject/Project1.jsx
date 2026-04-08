@@ -30,9 +30,9 @@ const Project1 = () => {
                 <h2 className="mb-2">Summary:</h2>
                 <p className="text-xl">
                   Rogue Detective is a first-person action-adventure game in
-                  which players roleplay as an independent detective who gathers
-                  witnesses’ testimony and reports their findings to trusted
-                  authorities. The player must traverse rough terrain by
+                  which players roleplay as an independent detective named Koda
+                  who gathers witnesses’ testimony and reports their findings to
+                  trusted authorities. The player must traverse rough terrain by
                   crouching under or jumping over physical obstacles.
                   Occasionally, they may hide from or fight criminals. They have
                   to successfully interact or haggle witnesses to properly
@@ -132,11 +132,14 @@ const Project1 = () => {
                   <b>Focus:</b> Exploration, Puzzle Design, Combat Encounters
                 </p>
                 <p className="text-xl">
-                  Terra Street is a small area that the player can traverse.
+                  Terra Street is the starting point for the player or Koda to
+                  explore the layout and the building architecture of the game
+                  level. Koda will meet their first ally, Valo, on Terra Street
+                  to investigate a major murder crime case.
                 </p>
                 <p className="text-xl">
-                  Terra Street connect multiple character interactions, combat
-                  encounters, and traversal challenges.
+                  Terra Street connects the player to multiple character
+                  interactions, combat encounters, and traversal challenges.
                 </p>
 
                 <div className="image-wrapper grid grid-cols-2 gap-3 mb-0">
@@ -169,20 +172,48 @@ const Project1 = () => {
                   The core goals for Terra Street were:
                 </p>
                 <ul className="list-disc list-outside ml-5 text-xl">
-                  <li className="pb-5">G1</li>
-                  <li>G2</li>
+                  <li className="pb-5">
+                    Make a challenging exploring linear area that trains the
+                    player to understand the controls and core mechanics of the
+                    game.
+                  </li>
+                  <li className="pb-5">
+                    A balance of combat, narrative, and puzzles without letting
+                    one pillar take center stage over the others.
+                  </li>
+                  <li>
+                    Establish a strong sense of immersion and narrative tension.
+                  </li>
                 </ul>
-                <p className="text-xl pb-5">Something</p>
+                <p className="text-xl pb-5">
+                  This is the player's initial assessment of the play's
+                  playability and narrative, which should result in a positive
+                  review and keep the player interested.
+                </p>
 
                 <h2 className="mb-2 text-4xl font-bold">
                   Level Structure & Player Flow
                 </h2>
-                <p className="text-xl mb-2">Terra Street's main focus were:</p>
+                <p className="text-xl mb-2">
+                  Terra Street's main level focus were:
+                </p>
                 <ul className="list-disc list-outside ml-5 text-xl">
-                  <li className="pb-5">F1</li>
-                  <li>F2</li>
+                  <li className="pb-5">
+                    Puzzle-focused configurations that require understanding on
+                    how to interact or haggle characters to gather evidence and
+                    testimonies to a crime.
+                  </li>
+                  <li>
+                    Combat encounters that increase the player's immersion to
+                    defeat criminals and save civilians.
+                  </li>
                 </ul>
-                <p className="text-xl pb-5">Something</p>
+                <p className="text-xl pb-5">
+                  The player is rewarded with loot and story beats on critical
+                  paths. To make sure players constantly felt focused, even when
+                  confronting non-linear tasks, I placed a lot of emphasis on
+                  densely infested criminal pathways.
+                </p>
 
                 <div className="image-wrapper2">
                   <img
@@ -191,23 +222,23 @@ const Project1 = () => {
                   />
                 </div>
 
-                <div className="image-wrapper grid grid-cols-2 gap-3">
+                <div className="image-wrapper grid grid-cols-2 gap-3 mb-0">
                   <img
-                    src="../../images/projects/RogueDetective/"
+                    src="../../images/projects/RogueDetective/Layout/CrimeScene.png"
                     alt="CrimeScene"
                   />
                   <img
-                    src="../../images/projects/RogueDetective/"
-                    alt="Alley"
+                    src="../../images/projects/RogueDetective/Layout/Hideout1.png"
+                    alt="Hideout1"
                   />
                 </div>
-                <div className="image-wrapper grid grid-cols-2 gap-3">
+                <div className="image-wrapper grid grid-cols-2 gap-3 mt-0">
                   <img
-                    src="../../images/projects/RogueDetective/"
+                    src="../../images/projects/RogueDetective/Layout/Hideout1Roof.png"
                     alt="Hideout#1"
                   />
                   <img
-                    src="../../images/projects/RogueDetective/"
+                    src="../../images/projects/RogueDetective/Layout/Hideout2.png"
                     alt="Hideout#2"
                   />
                 </div>
@@ -380,12 +411,12 @@ const Project1 = () => {
 
                 <div className="image-wrapper grid grid-cols-2 gap-3">
                   <img
-                    src="../../images/projects/project3.png"
-                    alt="Rogue Detective"
+                    src="../../images/projects/RogueDetective/Layout/Caller1.png"
+                    alt="Caller1"
                   />
                   <img
-                    src="../../images/projects/project3.png"
-                    alt="Rogue Detective"
+                    src="../../images/projects/RogueDetective/Layout/Caller2.png"
+                    alt="Caller2"
                   />
                 </div>
 
