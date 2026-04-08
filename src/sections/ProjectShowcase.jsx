@@ -56,7 +56,10 @@ const ProjectShowcase = () => {
         <div className="project-wrapper" ref={project1Ref}>
           <div className="image-wrapper">
             <Link to="/projects/project1">
-              <img src="/images/projects/project3.png" alt="Rogue Detective" />
+              <img
+                src="/images/projects/RogueDetective/Environment.png"
+                alt="Rogue Detective"
+              />
             </Link>
           </div>
           <div className="text-content">
@@ -154,7 +157,7 @@ const ProjectShowcase = () => {
           <div className="image-wrapper">
             <Link to="/projects/project1">
               <img
-                src="/images/projects//RogueDetective/Environment.png"
+                src="/images/projects/RogueDetective/Environment.png"
                 alt="Rogue Detective"
               />
             </Link>

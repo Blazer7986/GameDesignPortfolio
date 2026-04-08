@@ -29,7 +29,7 @@ const Intro = () => {
       <div className="hero-layout ">
         {/* LEFT: Hero content*/}
         <header className="intro-header flex flex-col justify-center md:w-full w-screen md:pl-20 pr-10 px-5">
-          <div className="flex flex-col gap-7">
+          <div className="flex flex-col gap-5">
             <div className="hero-text">
               <h1> Hello, I'm</h1>
               <h1>Vianey Rivera.</h1>
@@ -69,9 +69,9 @@ const Intro = () => {
           </div>
         </header>
         {/* Right: Image*/}
-        <div className="hero-3d-layout border-2 border-black-100">
+        <div className="hero-3d-layout">
           <img
-            src="/images/projects/project3.png"
+            src="/images/projects/RogueDetective/Dialogue/UI.png"
             alt="hero-3d"
             className="w-full h-full object-cover"
           />
